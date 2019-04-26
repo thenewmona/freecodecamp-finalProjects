@@ -1,0 +1,71 @@
+/*validation* 6/10/2018/
+
+ 
+W3C CSS Validator results for TextArea (CSS level 3 + SVG)
+Sorry! We found the following errors (3)
+URI : TextArea
+114	.card-content	Value Error : padding only 0 can be a unit. You must put a unit after your number : 1
+187	.grid	only 0 can be a unit. You must put a unit after your number : 25 25 25
+195	#section-a .content-text p	Value Error : padding top is not a padding value : top 0
+
+HTML validation 
+Error: Duplicate ID logo.
+
+From line 19, column 13; to line 19, column 34
+
+          <a href="#" id="logo"></a>↩ 
+
+Warning: The first occurrence of ID logo was here.
+
+From line 15, column 5; to line 15, column 26
+
+o -->↩    <a href="#" id="logo"></a>↩ 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 45, column 25; to line 45, column 87
+
+          <a href="https://codepen.io/thenewmona/full/jZqeBo" target="_">MockUp
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 56, column 25; to line 56, column 87
+
+          <a href="https://codepen.io/thenewmona/full/zWLWqG" target="_">Slack 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 67, column 25; to line 67, column 88
+
+          <a href="https://codepen.io/thenewmona/full/LddYyg/" target="_">Pixel 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 102, column 17; to line 102, column 80
+
+          <a href="https://www.facebook.com/ramona.saintandre" target="_"></a>↩ 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 106, column 17; to line 106, column 84
+
+          <a href="https://www.linkedin.com/in/ramona-saintandre/" target="_"></a>↩ 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 110, column 17; to line 110, column 68
+
+          <a href="https://codepen.io/thenewmona/" target="_"></a>↩ 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 114, column 17; to line 114, column 69
+
+          <a href="https://twitter.com/thenewmona1" target="_"></a>↩ 
+
+Error: Bad value _ for attribute target on element a: Reserved keyword  used.
+
+From line 126, column 13; to line 126, column 58
+
+          <a href="http://anomardesigns.com" target="_">Ramona
+

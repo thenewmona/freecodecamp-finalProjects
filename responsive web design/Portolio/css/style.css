@@ -1,0 +1,219 @@
+/*core*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(151, 142, 174);
+    color: rgb(63, 18, 75);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+
+/*hero*/
+
+
+/*logo is not sized correctly, order issue possible, need to left justify also*/
+
+.headerlogoimg {
+    height: auto;
+    width: auto;
+}
+
+#hero {
+    min-height: 450px;
+    color: rgb(151, 142, 174);
+    text-align: center;
+}
+
+#hero .bg-image {
+    position: absolute;
+    background: rgb(63, 18, 75) url("https://lh3.googleusercontent.com/3eg1SKLioD8p9zQdjJlJbzIpLEuuGoiVYL5QZcLX9AwFczy5n94So0bkPWEl6axKNc79pIEyoziN5f8xbeEuJtaQuK3hJfR2_0vwM2rGRi4XbLnTSjOT4ZMwtCNUwkmEjm-Cy2fFXJN1TDHPQvsae-la0-TRbbKuos348s3nyfmGolJP97pmtZX4h57uNDKfWPeoeftZYOMDFxpV1hl2Lna8GpXqgwTUIsPIc7OtXElb6SR65yzbwpReuug4nWA_Fc13m7vEUjVnkPcFHYCknxggc699x0qm45_Yn9KxMRMMX2je0GcMyAJChYyVORxoXqDQi_oNhMdcp-CS6fo3ru8Xvg-a9HMqpqMcV4oTEdJ9-lM8lnW9xyS8P6-R-Bd9XwUls46MXSbzaTCpiVk_emL640VrSQxu5fbgMk6ocnpcWp0-NFYlUKGqdqDPfHp9R6rpNnbfdbvE1ursyN4NBu7URktp2kRw7QrljYCmGqTSFo9PeLoe4G51tGcCjoCkwmTDU1_9h_SywZhhdzmPXlY9SOIivyIS_hfqTcT0AWg4von9nj6nJ6pYishY8auAIAZ1JJZ2XTHoW566EwNfat_sIG3yWq-y8Cy_GCQD=w1200-h900-no");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#hero h1 {
+    padding-top: 300px;
+    padding-bottom: 0;
+}
+
+#hero h1 {
+    padding-top: 200px;
+    padding-bottom: 0;
+}
+
+#hero .content-wrap {
+    padding: 0 2.5em;
+}
+
+
+/*Section A*/
+
+
+/* need to fix the text so that it aligned properly and check grammer*/
+
+#section-a {
+    background: rgb(63, 18, 75);
+    color: rgb(63, 18, 75);
+    padding-bottom: 2em;
+    font-family: 'Pacifico', cursive;
+}
+
+.content-text {
+    text-align: center;
+}
+
+
+/*Section B*/
+
+
+/*fix image size for third card add paragraph information*/
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    margin-bottom: 5em;
+    background: rgb(99, 34, 117);
+    color: rgb(157, 191, 204);
+    font-family: fantasy;
+}
+
+.card-content {
+    padding: 0;
+}
+
+
+/*Section C*/
+
+S #section-c {
+    background: rgb(35, 20, 90);
+    color: rgb(46, 158, 93);
+    padding: 2em;
+}
+
+
+/*Section D*/
+
+#section-d {
+    padding: 2em;
+    color: black;
+}
+
+#section-d .box-first-child {
+    background: whitesmoke;
+}
+
+
+/* Footer */
+
+
+/*why is the links not showing up, is it an order issue, or do I need to take out one of the fa for the font awesome links*/
+
+
+/*why is the color not showing that it is a different section*/
+
+
+/* need to move the Contact Me paragraph to the social media links*/
+
+#main-footer {
+    padding: 4em;
+    background: rgb(39, 3, 34);
+    color: rgb(181, 182, 204);
+    text-align: center;
+}
+
+#main-footer a {
+    color: rgb(204, 195, 211);
+    text-decoration: none;
+}
+
+
+/*social media class*/
+
+.fa fa-linkedin {
+    background: #007bb6;
+}
+
+.fa fa-facebook {
+    background: #3b5998;
+}
+
+.fa fa-google-plus {
+    background: #007bb6;
+}
+
+.fa fa-twitter {
+    background: #007bb6;
+}
+
+@media(min-width: 1400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /*media queeries*/
+        /*Pixel2*/
+        /*iphone 8plus*/
+        /* kindle fire HDX*/
+        /*fractionals grid-template need to learn how to use the FR and repeat ex:1fr repeat(2, minmax(auto,25em ))1fr */
+    }
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 0;
+    }
+    #section-a .content-text p {
+        padding: 1px;
+        ;
+    }
+    .content-wrap,
+    #section-bu ul {
+        grid-column: 2/4;
+        /*grid-column*/
+    }
+}
+
+.box,
+#main-footer div {
+    grid-column: span 1;
+}
+
+#section-b ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li {
+    width: 31%;
+}

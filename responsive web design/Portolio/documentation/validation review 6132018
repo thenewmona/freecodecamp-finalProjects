@@ -1,0 +1,12 @@
+W3C CSS Validator results for TextArea (CSS level 3 + SVG)
+Sorry! We found the following errors (2)
+URI : TextArea
+185	.grid	only 0 can be a unit. You must put a unit after your number : 25 25 25 0
+197	#section-a .content-text p	Value Error : padding-top only 0 can be a unit. You must put a unit after your number : -1
+↑ TOP
+
+Validators Donation Program logo	The W3C validators rely on community support for hosting and development.
+Donate and help us build better tools for a better web.
+Warnings (1)
+URI : TextArea
+81	#section-a	Same color for background-color and color

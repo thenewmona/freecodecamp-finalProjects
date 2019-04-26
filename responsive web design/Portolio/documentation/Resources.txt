@@ -1,0 +1,99 @@
+resources
+
+/*SLACK*/
+ChrisN documentation=
+https://gwgnanodegrees.slack.com/files/UA8PXHUR3/FB1NZMP6Z/Project_1__Building_a_portfolio_pt_1__the_HTML 
+
+https://gwgnanodegrees.slack.com/files/UA8PXHUR3/FB2H43J86/Project_1__Building_a_portfolio_pt_2__the_CSS
+
+Mikas webinar - https://www.youtube.com/watch?v=X3WloDKs7sw
+
+/*fontawesome*/
+https://fontawesome.com/
+https://fontawesome.com/v4.7.0/get-started/ from udacity review
+
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+https://www.youtube.com/watch?v=-1QiEXwmcA0 fontawesome video
+https://www.youtube.com/watch?v=XOs0KsFEN_k video how to use fontawesome
+https://www.youtube.com/watch?v=iAKLxspB5U4
+/*logo*/
+https://res.cloudinary.com/szamina/image/upload/v1519664760/udacity_portrait_transparent_hd.png
+
+/*target_blank*/
+https://www.w3schools.com/Tags/att_a_target.asp
+this opens a new page/tab so people are not directed away from your page 
+
+/*git*/
+https://github.com/Homebrew/brew/issues/230
+http://kbroman.org/github_tutorial/pages/init.html
+
+/*GIT 404 error message*/
+https://stackoverflow.com/questions/11577147/how-to-fix-page-404-on-github-page
+
+/*fonts*/
+https://developers.google.com/fonts/docs/getting_started
+
+/*z-index*/
+https://www.w3schools.com/cssref/pr_pos_z-index.asp
+https://www.w3schools.com/cssref/pr_pos_z-index.asp z-index 
+
+/* Linking webpages in HTML*/
+https://www.w3schools.com/html/html_links.asp
+
+/*flexbox*/
+https://www.youtube.com/watch?v=JJSoEo8JSnc
+
+using ems - https://www.w3schools.com/cssref/css_units.asp
+https://www.sitepoint.com/power-em-units-css/
+https://css-tricks.com/why-ems/
+
+/*Media Queries*/
+https://css-tricks.com/css-media-queries/
+https://css-tricks.com/css-media-queries/
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+/*fractionals grid-template 1fr repeat(2, minmax(auto, ))1fr */
+
+https://medium.com/flexbox-and-grids/the-css-fractional-unit-fr-in-approachable-plain-language-fdc47bd387f7
+https://css-tricks.com/introduction-fr-css-unit/
+
+/*flexbox*/
+https://www.sketchingwithcss.com/samplechapter/cheatsheet.html
+
+ /*grid-column*/
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://www.w3schools.com/cssref/pr_grid-column.asp
+
+ /*column-gap*/
+ https://css-tricks.com/almanac/properties/c/column-gap/
+ https://www.w3.org/TR/css-multicol-1/
+
+ /*.box-first-child*/
+
+ https://www.w3schools.com/cssref/sel_last-child.asp
+
+ https://developer.mozilla.
+ org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items
+
+ /*content-wrap - flex wrappers*/
+
+ https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp
+https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp
+https://stackoverflow.com/questions/14962459/html-divs-how-to-wrap-content
+
+/*Email*/
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+https://stackoverflow.com/questions/10632468/styling-email-link-href-mailto-with-css
+https://www.w3schools.com/tags/tag_address.asp
+https://www.w3schools.com/Tags/att_a_target.asp
+
+
+ /*TraversyMedia*/
+ <!--https://codepen.io/bradtraversy/pen/RjpQvZ-->
+<!--https://www.youtube.com/watch?v=M3qBpPw77qo-->
+
+/*Mentor resources*/
+https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/
+https://teamtreehouse.com/community/why-we-use-this-html-langen
