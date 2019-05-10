@@ -13,14 +13,21 @@ a {
     text-decoration: none;
     color: white;
 }
-img {
-    display: inline-block;
+.img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.marriageVerse-caption {
+    display:flex;
+    justify-content: center;
 }
 li {
     list-style-type: none;
 }
 hr {
-    display: block;
+    display: flex;
     height: 0px;
     max-width: 90%;
     border: 3px solid #162935;
@@ -44,8 +51,8 @@ ul {
 
 #main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     max-width: auto;
     min-width: auto;
     margin: 0 auto;
