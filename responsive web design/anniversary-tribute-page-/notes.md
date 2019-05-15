@@ -26,3 +26,5 @@ https://www.eggradients.com/gradient-color
 https://www.youtube.com/watch?v=-pUEQDY9HV0&fbclid=IwAR1qBq8ktDxtH654kPw73URG1azHxnwNcQSRJQ6S-lHT0jMr_QgI8_xESUk
 
 [CSS Vertical Timeline Design | csPoint CSS Advanced Tutorial](https://www.youtube.com/watch?v=UzDi6QUYToE&feature=youtu.be&fbclid=IwAR2xh8fnI15J9OwI0dMhwOiLgCuE2OzXySvThI47Xkf0E3G3nwIlcS7JdDw)
+
+[Flex Cards Accordion Script](http://www.dynamicdrive.com/dynamicindex17/flex-cards-accordion.htm)
