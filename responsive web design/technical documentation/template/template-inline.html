@@ -1,0 +1,180 @@
+<!-- https://www.youtube.com/watch?v=kmHdn_AcTdI&t=72s -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="template.css"> -->
+    <title>FCC technical Documentation Page</title>
+</head>
+<style>
+   /* https://www.youtube.com/watch?v=PwWHL3RyQgk */
+/* https://www.youtube.com/watch?v=EyeUrJtUCic */
+div.main-body {
+    display: grid;
+    grid-template-columns: minmax(300px, auto) 1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+}
+
+nav#navbar {
+    grid-area: navbar;
+    position: fixed;
+
+}
+
+nav#navbar a {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+main#main-doc {
+    grid-area: mainContent;
+
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+code {
+    background-color: gray;
+    display: block;
+    padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    div.main-body {
+        grid-template-columns: 1fr;
+        grid-template-areas: "navbar""mainContent";
+    }
+
+    nav#navbar {
+        position: inherit;
+    }
+} 
+</style>
+<body>
+    <div class="main-body">
+    <nav id="navbar">
+        <header>Template doucmentation</header>
+        <a href="#Header1" class="nav-link">header1</a>
+        <a href="#Header2" class="nav-link">header2</a>
+        <a href="#Header3" class="nav-link">header3</a>
+        <a href="#Header4" class="nav-link">header4</a>
+        <a href="#Header5" class="nav-link">header5</a>
+    </nav>
+    <!--User Story #2 -->
+    <main id="main-doc">
+
+        <!--User Story 2# and #3 -->
+        <section class="main-section" id='Header1'>
+            <header>Header1</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias maiores!</p>
+            <ul>
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+                <li>list4</li>
+                <li>list5</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id='Header2'>
+            <header>Header2</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias maiores!</p>
+            <!-- <code>new WOW().init();
+                $(document).ready(function() {
+                $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                '1.35s').attr('data-wow-delay', '.25s');
+                });</code> -->
+            <code>new WOW().init();
+                $(document).ready(function() {
+                $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                '1.35s').attr('data-wow-delay', '.25s');
+                });</code>
+
+        </section>
+
+        <section class="main-section" id='Header3'>
+            <header>Header3</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias maiores!</p>
+            <code>new WOW().init();
+                $(document).ready(function() {
+                $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                '1.35s').attr('data-wow-delay', '.25s');
+                });</code>
+            <code>new WOW().init();
+                $(document).ready(function() {
+                $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                '1.35s').attr('data-wow-delay', '.25s');
+                });</code>
+                <code>new WOW().init();
+                        $(document).ready(function() {
+                        $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                        '1.35s').attr('data-wow-delay', '.25s');
+                        });</code>
+                    <code>new WOW().init();
+                        $(document).ready(function() {
+                        $('.timeline-item').not(":first").addClass('wow fadeInUp').attr('data-wow-duration',
+                        '1.35s').attr('data-wow-delay', '.25s');
+                        });</code>
+        </section>
+
+        <section class="main-section" id='Header4'>
+            <header>Header4</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias maiores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores
+                quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias
+                maiores!</p>
+        </section>
+
+        <section class="main-section" id='Header5'>
+            <header>Header5</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam autem obcaecati? Qui maxime neque
+                aliquid asperiores sequi placeat sint! Deserunt, ducimus. Nam optio quo, autem ex libero sequi quasi.
+            </p>
+            <p>Delectus sequi ad, quis commodi eius culpa, vel, iure quaerat omnis labore quibusdam aliquam facilis
+                maiores quam! Vero doloribus inventore tempore temporibus itaque dignissimos hic repellat corrupti qui,
+                molestias maiores!</p>
+        </section>
+
+    </main>
+</div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
