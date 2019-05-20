@@ -1,139 +1,117 @@
-<!-- https://www.youtube.com/watch?v=cAWxeO83Yr4 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <title></title>
+
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    
-    <title>Navbar template</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+
     <style>
-        html{
-            font-family: 'Oxygen',sans-serif;
+        html {
+            font-family: 'Oxygen', sans-serif;
         }
-
-.body {
-    margin: 0px;
-
-}
-.navbar {
-    background:rgb(48, 74, 145);
-    
-}
-.navbar div {
-    display: none;
-}
-
-.navbar .toggle , 
-.navbar .navlink {
-    display: inline-block;
-    color:burlywood;
-}
-
-.navbar .link {
-    display: block;
-    text-align: center;
-    padding:1em;
-    text-decoration: none;
-    background:#223047;
-   color:white;
-}
-
-.navbar .link:hover, 
-.navbar .link:active {
-    color:rgb(28, 81, 180);
-    background:rgb(228, 211, 211);
-}
-
-.navbar .navlink {
-    width:10em;
-    text-align: center;
-    padding: 1em;
-    color:wheat;
-    
-}
-.navbar a {
-    text-decoration:none;
-}
-
-.navbar .toggle {
-    padding: 1em;
-    color: black;
-}
-
-@media (min-width: 48em){
-    .navbar{
-        display: flex;
-    }
-    navbar div {
-        display: flex;
-    }
-    .navbar .left, 
-    .navbar .right {
-        display: flex;
-        flex: 1;
-    }
-   
-.navbar .link {
-    width:auto;
-}
-
-.navbar .right {
-    justify-content:flex-end;
-}
-
-.navbar .toggle{
-    display:none;
-}
-}
-
-@media(max-width:48em){
-    .navbar.active .toggle{
-        background:#223047;
-        color:whitesmoke;
-        
-    }
-    .navbar .navlink {
-        text-align:left;
-    }
-    .navbar.active div {
-        display: block;
-    }
-}
-
+        body {
+            margin: 0px;
+        }
+        .navbar {
+            background: #415068;
+        }
+        .navbar div {
+            display: none;
+        }
+        .navbar .toggle,
+        .navbar .brand {
+            display: inline-block;
+        }
+        .navbar .link {
+            display: block;
+            text-align: center;
+            padding: 1em;
+            text-decoration: none;
+            background: #223047;
+            color: white;
+        }
+        .navbar .link:hover,
+        .navbar .link:active {
+            color: #223047;
+            background: white;
+        }
+        .navbar .brand {
+            width: 10em;
+            text-align: center;
+            padding: 1em;
+            color: white;
+        }
+        .navbar a {
+            text-decoration: none;
+        }
+        .navbar .toggle {
+            padding: 1em;
+            color: black;
+        }
+        @media (min-width: 48em) {
+            .navbar {
+                display: flex;
+            }
+            .navbar .left,
+            .navbar .right {
+                display: flex;
+                flex: 1;
+            }
+            .navbar .link {
+                width: auto;
+            }
+            .navbar .right {
+                justify-content: flex-end;
+            }
+            .navbar .toggle {
+                display: none;
+            }
+        }
+        @media (min-width: 48em) {
+            .navbar div {
+                display: flex;
+            }
+        }
+        @media (max-width: 48em) {
+            .navbar.active .toggle {
+                background: #223047;
+                color: white;
+            }
+            .navbar .brand {
+                text-align: left;
+            }
+            .navbar.active div {
+                display: block;
+            }
+        }
     </style>
-
 </head>
 
-<body> 
-</a>
- <div class="navbar">
-        <a href="" id="navHamburger" class="toggle">
-                <i class="fas fa-bars"></i>
-        <a href="navlink1" id="" class="navlink">nav1</a>
-        <!-- <a href="navlink1" id="" class="navlink">nav2</a>
-        <a href="navlink1" id="" class="navlink">nav3</a> -->
-
+<body>
+    <div class="navbar">
+        <a href="#" class="toggle" id="navHamburger">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="#" class="brand">MyName</a>
         <div class="left">
-<a href="#" id="" class="link">link1</a>
-<a href="#" id="" class="link">link2</a>
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
         </div>
-
         <div class="right">
-                <a href="#" id="" class="link">link3</a>
-                <a href="#" id="" class="link">link4</a>
+            <a href="#" class="link">Link 3</a>
         </div>
- </div>
-
+    </div>
 </body>
+
 <script>
-        const navHamburger = document.querySelector('#navHamburger');
-        navHamburger.addEventListener('click', (e) => {
-            navHamburger.parentElement.classList.toggle('active');
-        })
-    </script>
+    const navHamburger = document.querySelector('#navHamburger');
+    navHamburger.addEventListener('click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    })
+</script>
 
 </html>
