@@ -1,8 +1,4 @@
-/* https://www.youtube.com/watch?v=PwWHL3RyQgk
-https://www.youtube.com/watch?v=EyeUrJtUCic
-https://github.com/KevinL622/AhriGuide
-https://github.com/mboladop/FreeCodeCamp-RWD-Certification-Projects
- left on this one https://www.youtube.com/watch?v=uyT3NSHhke8
+/* 
 * {
     padding: 0;
     margin: 0;
@@ -36,7 +32,6 @@ header {
     font-size: 40px;  
     
 }
-
 
 #navbar{
     display: flex;
@@ -76,7 +71,7 @@ div.main-body {
     grid-gap: 20px;
 }
 
-nav#navbar {
+navbar {
     grid-area: navbar;
     position: fixed;
 
@@ -92,12 +87,10 @@ nav#navbar {
 }
 
 
-main#main-doc {
+main-doc {
     grid-area: mainContent;
 
 }
-
-
 
 code {
     background-color: gray;
@@ -241,10 +234,6 @@ h2 {
   margin-top: 2%;
 }
 
-#javascript-logo-img {
-  width: 40%;
-  margin-right: 1%;
-}
 
 /* CSS customization for entire main body of text including: fonts styles, font sizes, div sizes, coloring */
 #main-doc {
@@ -302,11 +291,11 @@ p a:hover {
 }
 
 /* Ending DIV with credits to creator and project name */
-#footer-signature {
+#footer {
   width: 80%;
   height: 100px;
   text-align: center;
-  background-color: rgb(15, 62, 216);
+  background-color: rgb(240, 16, 229);
   margin: auto;
   margin-top: 5%;
   padding: 0% 2% 2% 2%;
