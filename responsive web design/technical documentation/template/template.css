@@ -284,16 +284,17 @@ code {
 }
 /* Ending DIV with credits to creator and project name */
 #footer {
-  width: 80%;
+  width: 100%;
   height: 100px;
   text-align: center;
-  background-color: rgb(240, 16, 229);
+  background-color: rgb(9, 70, 121);
   margin: auto;
   margin-top: 5%;
   padding: 0% 2% 2% 2%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+/* need to add social media icons */
 
 
 /* Screen size change for Tablets & Phones with smaller resolution */
