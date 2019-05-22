@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="template1.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
         integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous">
     </script>
@@ -22,20 +22,21 @@
         </header>
     </div>
     <div id="main">
-            <button class="openbtn" onclick="openNav()">☰ JS DOCUMENTATION</button> 
+            <button class="openbtn" onclick="openNav()">☰ </button> 
         <ul id='nav-ul'>
             <li>
+                <!-- span  tag https://www.w3schools.com/tags/tag_span.asp -->
                 <p>Table of Contents</p>
             </li>
-            <li><a class="nav-link" href='link1'><button id="link1"> <span class="button-text">Header1</span>
+            <li><a  href='link1'> Header1</a>
                 </button></a></li>
-            <li><a class="nav-link" href='link2'><button id="link2"> <span class="button-text">Header2</span>
+            <li><a  href='link2'> Header2</a>
                 </button></a></li>
-            <li><a class="nav-link" href='link3'><button id="link3"> <span class="button-text">Header3</span>
+            <li><a  href='link3'> Header3</a>
                 </button></a></li>
-            <li><a class="nav-link" href='link4'><button id="link4"> <span class="button-text">Header4</span>
+            <li><a  href='link4'> Header4</a>
                 </button></a></li>
-            <li><a class="nav-link" href='link5'><button id="link5"> <span class="button-text">Header5</span>
+            <li><a  href='link5'> Header5</a>
                 </button></a></li>
         </ul>
     </div>
@@ -154,12 +155,12 @@
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
     <script>
             function openNav() {
-              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("navBar").style.width = "250px";
               document.getElementById("main").style.marginLeft = "250px";
             }
             
             function closeNav() {
-              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("navBar").style.width = "0";
               document.getElementById("main").style.marginLeft= "0";
             }
             </script>
