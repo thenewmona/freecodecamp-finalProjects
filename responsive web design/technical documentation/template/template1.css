@@ -52,7 +52,17 @@
   .openbtn:hover {
     background-color: #444;
   }
+  #nav-ul {
+    list-style-position: inside;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+    overflow-y: auto;
+  }
   
+  li {
+    list-style: none;
+  }
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s; /* If you want a transition effect */
@@ -80,11 +90,16 @@
     margin-left:3vmin;
     color:rgb(12, 10, 122)
   }
+  code {
+    background-color: gray;
+    display: block;
+    padding: 20px;
+}
   
-  .hello{
+  /* .hello{
     background-color:	#DCDCDC;
     padding:2vw;
-  }
+  } */
   
   #footer{
     background-color:rgb(20, 93, 161);
