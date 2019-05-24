@@ -1,353 +1,172 @@
-/* 
-* {
-    padding: 0;
-    margin: 0;
-}
 
 body {
-    font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  background-color: #e0e8f0;
 }
 
-a {
-    text-decoration: none; color:rgb(24, 30, 124);
-}
-
-li {
-    list-style: none;
-}
-#mainHead {
-    font-size:40px;
-    text-align:center;
-    float:left;
-    line-height: 50px;
-    color:red;   
-    font-weight:bolder;
-    border-bottom: 1px solid black;
-}
-header {
-    width:100%; 
-    height:50px; 
-    margin:auto;
-    border-bottom: 1px solid black;  
-    font-size: 40px;  
-    
-}
-
-#navbar{
-    display: flex;
+@media (max-width: 768px) {
+  body {
     flex-direction: column;
-    background-color: rgb(15, 26, 94);
-    height: 100%;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 344px;
-    min-width: 349px;
-    max-width: 349px;
-}
-#nav-ul {
-    list-style-position: inside;
-    padding-left: 0;
-    list-style: none;
-    width: 100%;
-    overflow-y: auto;
   }
-  #nav-ul p {
-    background: rgba(255,60,40,1);
-    width: 97%;
-    padding: 3% 0 3% 3%;
-    margin-bottom: 2px;
+
+  #left #navbar {
     position: relative;
-    color: white;
+    min-width: 100%;
   }
- a{
-    display:block; padding: 15px 0;
-    border-bottom: 5px solid color rgb(255, 0, 0);
-}
-div.main-body {
-    display: grid;
-    grid-template-columns: minmax(300px, auto) 1fr;
-    grid-template-areas: "navbar mainContent";
-    grid-gap: 20px;
+
+  #main-doc {
+    width: 96vw;
+    margin-left: 1vw;
+  }
 }
 
-navbar {
-    grid-area: navbar;
-    position: fixed;
-
+#left {
+  padding: 1vw;
+  min-width: 25vw;
+  left: 0;
+  display: flex;
 }
 
-.navbar a {
-    display: block;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 10px 0;
-    text-decoration: none;
-    color: black;
-}
-
-
-main-doc {
-    grid-area: mainContent;
-
-}
-
-code {
-    background-color: gray;
-    display: block;
-    padding: 20px;
-}
-
-Screen size change for Tablets & Phones with smaller resolution
-@media screen and (max-width: 785px) {
- 
-    Restructing of Navigation Bar from left-side of page to the top portion of the page
-    #navbar {
-      width: 100%;
-      max-width: none;
-      height: 500px;
-    }
-    
-    #nav-ul {
-      border: 1px solid black;
-      border-width: .5px 0 1px 0;
-      height: 166px;
-      width: 100%;
-      overflow: auto;  
-    }
-    h2 {
-        text-align: left;
-        margin-top: 39px;
-        margin-left: 130px;
-        padding-left: 3%;
-      } */
-      @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro');
-
-html {
-  font-family: 'Montserrat';
-  scroll-behavior: smooth;
-  overflow-y: scroll;
-}
-
-p, ul, button {
-  font-family: 'Source Sans Pro';
-}
-
-/* Navigation Logo, Links, Buttons, Buttons Effects */
-#navbar {
+#right {
+  width: 72vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 0vw;
+  padding-right: 1vw;
   display: flex;
   flex-direction: column;
-  background-color: rgb(12, 49, 109);
-  height: 100%;
+}
+
+#navbar {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 344px;
-  min-width: 349px;
-  max-width: 349px;
+  width: 25vw;
+  text-align: center;
+  overflow-y: scroll;
+  top: 1vw;
+  bottom: 0vw;
+  padding-bottom: 1vw;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-#nav-ul {
-  list-style-position: inside;
-  padding-left: 0;
-  list-style: none;
-  width: 100%;
-  overflow-y: auto;
-}
-
-#nav-ul p {
-  background: rgb(43, 86, 156);
-  width: 97%;
-  padding: 3% 0 3% 3%;
-  margin-bottom: 2px;
-  position: relative;
+.header {
+  background: rgb(7, 47, 99);
   color: white;
+  border-radius: 10px;
+  padding: 0px 3px 0px 3px;
 }
 
-.button-text {
-  z-index: 1;
-  position: relative;
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(7, 40, 112);
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
-button {
-  background-color:rgb(28, 145, 223);
-  color: rgb(250, 250, 237);
-  border: none;
-  text-align: left;
-  cursor: pointer;
-  width: 100%;
-  height: 30px;
-  font-size: 16px;
-  padding-top: 2%;
-  padding-left: 3%;
-  padding-bottom: 9%;
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  transition: .5s;
+#navbar li {
+  padding: 10px;
+  background-color: rgb(207, 218, 238);
 }
 
-button:before,
-button:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  background: rgb(12, 126, 55);
-  z-index: 0;
-  transform: translate3D(-100%, 0%, 0);
-  transition: .5s;
+#navbar li:hover {
+  background-color: #5482e6;
 }
 
-button:before {
-  z-index: -2;
-  transform: translate3D(0,0,0);
+#attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto", sans serif;
+  border-radius: 10px;
+  background: white;
 }
 
-button:hover {
+#main-doc {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#main-doc ul,
+#main-doc p {
+  font-size: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {    
+  border-width: 0px 0px 0px 5px;
+  background-color: rgb(26, 66, 129);
+  padding: 25px 0px 15px 25px;
+  padding-left: 5px;
+  border-color: rgb(18, 80, 214);
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  background-color: rgb(67, 103, 161);
+  padding: 10px 0px 10px 10px;
   color: white;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 30px 0px -10px 0px;
 }
 
-button:hover:after {
-  transform: translate3D(0,0,0);
-  transition:  .5s;
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  margin: 30px 0px 10px 0px;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  color: #107896;
 }
 
-header {
-    width:100%; 
-    height:50px; 
-    margin:auto;
-    border-bottom: 1px solid black;  
-    font-size: 40px;
+a:hover {
+  color: rgb(87, 92, 165);
 }
 
-h2 {
-  margin: 0;
-  margin-top: 2%;
+a:visited {
+  color: #4b2f4f;
 }
 
-
-/* CSS customization for entire main body of text including: fonts styles, font sizes, div sizes, coloring */
-#main-doc {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  left: 350px;
-  min-width: 200px;
-}
-
-.main-section-ul {
-  margin-left: 2%;
-}
-
-.main-section-ul li {
-  margin-top: 2.5%;
-}
-
-.main-section {
-  font-weight: 500;
-  font-size: 30px;
-  text-align: left;
-  color: black;
-  text-shadow: none;
-}
-
-.main-section {
-  margin-left: 4%;
-  margin-right:4%;
-  margin-top: 2%;
-}
-
-.main-section p {
-  margin-left: 2%;
-  line-height: 22px;
-}
-
-p a:hover {
-  border-style: solid;
-  border-width: 0 0 1px 0;
-}
-code {
-    background-color: gray;
-    display: block;
-    padding: 20px;
-}
-/* Ending DIV with credits to creator and project name */
-#footer {
-  width: 100%;
-  height: 100px;
+.responsive-img {
+  max-width: 100%;
+  height: auto;
   text-align: center;
-  background-color: rgb(9, 70, 121);
-  margin: auto;
-  margin-top: 5%;
-  padding: 0% 2% 2% 2%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* need to add social media icons */
+
+code {
+  background-color: rgb(180, 195, 214);
+  display: block;
+  padding: 20px;
+}
+#notes {
+font-size: 0.7rem;
+text-align: center;
+padding: 10px;
+font-family: "Roboto", sans serif;
+border-radius: 10px;
+background: rgb(152, 176, 207);
+}
 
 
-/* Screen size change for Tablets & Phones with smaller resolution */
-@media screen and (max-width: 785px) {
- 
-  /* Restructing of Navigation Bar from left-side of page to the top portion of the page */
-  #navbar {
-    width: 100%;
-    max-width: none;
-    height: 2000px;
-  }
-  
-  #nav-ul {
-    border: 1px solid black;
-    border-width: .5px 0 1px 0;
-    height: 166px;
-    width: 100%;
-    overflow: auto;  
-  }
-  
-  #nav-ul p {
-    margin-top: 0;
-    padding: 1.5% 0% 1.5% 0;
-    width: 100%;
-    text-indent: .5em;
-  }  
- 
- 
-  h2 {
-    text-align: left;
-    margin-top: 39px;
-    margin-left: 130px;
-    padding-left: 3%;
-  }
-  
-  button {
-    width: 100%;
-    height: 100%;
-    padding: 8px 0 8px 10px;
-  }
-  
-  /* Shifting main body of text down to avoid overlapping of content */
-  #main-doc {
-    position: absolute;
-    order: 2;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 284.5px;
-  }
-  
-  .main-section {
-    margin-top: 4%;
-  }
-  
-}
