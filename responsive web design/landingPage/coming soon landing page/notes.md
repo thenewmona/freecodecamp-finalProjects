@@ -1,0 +1,1 @@
+[Responsive Coming Soon Landing Page with Countdown](https://www.youtube.com/watch?v=NNpwqrvPyyU&list=WL&index=1)

@@ -55,47 +55,35 @@
 [What’s The Difference Between A Website Home Page & A Landing Page? Find Out](https://medium.com/@Square2Marketing/whats-the-difference-between-a-website-home-page-a-landing-page-find-out-9aed1a75b463)
 
 
-[How to Build a Landing Page From Scratch
-]( https://medium.com/waveguide-io/how-to-build-a-landing-page-from-scratch-ed2edf3ad31a)
+[How to Build a Landing Page From Scratch](https://medium.com/waveguide-io/how-to-build-a-landing-page-from-scratch-ed2edf3ad31a)
 
-[Here are 9 Visual Elements to Add to Your Landing Page]( https://medium.com/@evolvingwe/here-are-9-visual-elements-to-add-to-your-landing-page-b9b080556f6c)
+[Here are 9 Visual Elements to Add to Your Landing Page](https://medium.com/@evolvingwe/here-are-9-visual-elements-to-add-to-your-landing-page-b9b080556f6c)
 
-[What’s The Difference Between A Website Home Page & A Landing Page? Find Out]( https://medium.com/@Square2Marketing/whats-the-difference-between-a-website-home-page-a-landing-page-find-out-9aed1a75b463)
+[What’s The Difference Between A Website Home Page & A Landing Page? Find Out](https://medium.com/@Square2Marketing/whats-the-difference-between-a-website-home-page-a-landing-page-find-out-9aed1a75b463)
 
-[Minimum Viable Landing Page
-]( https://medium.com/@sonyaellenmann/minimum-viable-landing-page-66774e6602b4)
+[Minimum Viable Landing Page](https://medium.com/@sonyaellenmann/minimum-viable-landing-page-66774e6602b4)
 
-[Convince & Convert:
-5 Essential Elements of a Landing Page]( https://medium.com/@unamo/convince-convert-5-essential-elements-of-a-landing-page-fff4c7914bf2)
+[Convince & Convert:5 Essential Elements of a Landing Page](https://medium.com/@unamo/convince-convert-5-essential-elements-of-a-landing-page-fff4c7914bf2)
 
-[How to create a landing page that converts?
-]( https://medium.com/@OnCrawl/how-to-create-a-landing-page-that-converts-3c551118d2ca)
+[How to create a landing page that converts?](https://medium.com/@OnCrawl/how-to-create-a-landing-page-that-converts-3c551118d2ca)
 
-[10 Landing Page Best Practices for Boosting Conversions
-]( https://medium.com/gobeyond-ai/10-landing-page-best-practices-for-boosting-conversions-375e1dd95d61)
+[10 Landing Page Best Practices for Boosting Conversions](https://medium.com/gobeyond-ai/10-landing-page-best-practices-for-boosting-conversions-375e1dd95d61)
 [How to Build a Personal Landing Page Online
 ]( https://medium.com/popular-science/how-to-build-a-personal-landing-page-online-7ad91f626a08)
 
-[How to build super effective landing pages
-]( https://uxplanet.org/how-to-build-super-effective-landing-pages-7fe9a3bab8f1)
+[How to build super effective landing pages](https://uxplanet.org/how-to-build-super-effective-landing-pages-7fe9a3bab8f1)
 
-[How to Design an Effective Landing Page
-]( https://blog.prototypr.io/how-to-design-an-effective-landing-page-363d521e062d)
+[How to Design an Effective Landing Page](https://blog.prototypr.io/how-to-design-an-effective-landing-page-363d521e062d)
 
-[Gradients + Triangles for Modern Landing Pages
-]( https://medium.com/@michaelmangial1/gradients-triangles-for-modern-landing-pages-b322c8d0afc5)
+[Gradients + Triangles for Modern Landing Pages](https://medium.com/@michaelmangial1/gradients-triangles-for-modern-landing-pages-b322c8d0afc5)
 
-[The Absolute Beginner’s Landing Page Recipe In a Nutshell
-]( https://medium.com/the-launchism/the-absolute-beginner-s-landing-page-recipe-in-a-nutshell-71c7f78fcca3)
+[The Absolute Beginner’s Landing Page Recipe In a Nutshell](https://medium.com/the-launchism/the-absolute-beginner-s-landing-page-recipe-in-a-nutshell-71c7f78fcca3)
 
-[The Art of Powerful Landing Pages
-]( https://medium.com/@stacygoh/the-art-of-powerful-landing-pages-12a3cdeb05c3)
+[The Art of Powerful Landing Pages](https://medium.com/@stacygoh/the-art-of-powerful-landing-pages-12a3cdeb05c3)
 
-[Designing a Responsive Landing Page
-]( https://medium.com/web-design-by-solodev/designing-a-responsive-landing-page-31ee66e47ef5)
+[Designing a Responsive Landing Page](https://medium.com/web-design-by-solodev/designing-a-responsive-landing-page-31ee66e47ef5)
 
-[dev-landing-page
-]( https://github.com/flexdinesh/dev-landing-page)
+[dev-landing-page]( https://github.com/flexdinesh/dev-landing-page)
 
 
 
