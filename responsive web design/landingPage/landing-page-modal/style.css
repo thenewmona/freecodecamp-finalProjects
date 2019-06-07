@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),
+    url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
+    background-size:cover;
+}
+.banner-text{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.banner-text h1{
+    
+    color:wheat;
+    font-family:"Courgette",sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.footer{
+width:100%;
+height:50vh;
+    background:url(images/calvincoolidge.jpg) center no-repeat;
+}
+
