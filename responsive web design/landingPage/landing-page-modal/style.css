@@ -25,6 +25,33 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
+
+.banner-text p{
+    
+    color:wheat;
+    font-family:"Courgette",sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+   text-align: right;
+}
+
+.btns {
+    position:absolute;
+    top: 50px;
+    right:60px;
+}
+
+.btn {
+    width: 170px;
+    padding: 10px 15px ;
+    margin-right: 20px;
+    border-radius:50px;
+    font-family: 'Pacifico','san-serif';
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 .footer{
 width:100%;
 height:50vh;
