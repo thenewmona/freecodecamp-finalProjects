@@ -63,8 +63,30 @@
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
+    outline:none;
+    cursor: pointer;
+    color: wheat;
+    border:2px solid wheat;
+    transition: transform 0.5;
+
 }
 
+.login-btn{
+    background-color: transparent;
+
+}
+
+.signup-btn{
+    background-color: transparent;
+}
+
+.btn:hover{
+    transform: translate(-2px);
+}
+
+.btn:active {
+    transform: translate(0);  
+}
 .footer {
     position: fixed;
     bottom: 0;
