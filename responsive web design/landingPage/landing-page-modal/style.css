@@ -1,61 +1,78 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)),
-    url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
-    background-size:cover;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)),
+        url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
+    background-size: cover;
 }
-.banner-text{
+
+.header{
+    color: wheat;
+    font-family: "Courgette", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 10px; 
+    background-color: rgb(69, 39, 97);
+    text-align: center;
+}
+.banner-text {
     position: absolute;
-    top:40%;
-    left:50%;
-    transform:translate(-50%, -50%)
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
-.banner-text h1{
-    
-    color:wheat;
-    font-family:"Courgette",sans-serif;
+
+.banner-text h1 {
+
+    color: wheat;
+    font-family: "Courgette", sans-serif;
     font-size: 80px;
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
 
-.banner-text p{
-    
-    color:wheat;
-    font-family:"Courgette",sans-serif;
+.banner-text p {
+
+    color: rgb(160, 69, 148);
+    font-family: "Courgette", sans-serif;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 1px;
-   text-align: right;
+    text-align: right;
 }
 
 .btns {
-    position:absolute;
-    top: 50px;
-    right:60px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
 }
 
 .btn {
     width: 170px;
-    padding: 10px 15px ;
+    padding: 10px 15px;
     margin-right: 20px;
-    border-radius:50px;
-    font-family: 'Pacifico','san-serif';
+    border-radius: 50px;
+    font-family: 'Bree+Serif', 'san-serif';
     font-size: 16px;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
-.footer{
-width:100%;
-height:50vh;
-    background:url(images/calvincoolidge.jpg) center no-repeat;
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+    text-align: center;
+    font-family: 'Bree+Serif', 'san-serif';
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(232, 179, 245);
+    /* background: url(images/calvincoolidge.jpg) center no-repeat; */
 }
-
-
