@@ -6,6 +6,7 @@
 .container {
     width: 100%;
     height: 100vh;
+    top:-10px;
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)),
         url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
     background-size: cover;
@@ -17,8 +18,10 @@
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-bottom: 10px; 
-    background-color: rgb(69, 39, 97);
+    margin-bottom: 30px; 
+   padding-top: 25px;
+   padding-bottom: 20px;
+    background-color: rgb(133, 26, 133);
     text-align: center;
 }
 .banner-text {
@@ -90,15 +93,16 @@
 
 .modal{
     width:400px;
-    background: linear-gradient(rgba(148, 42, 42, 0.8), rgba(185, 129, 129, 0.6)),
+    background: linear-gradient(rgba(243, 154, 236, 0.8), rgba(223, 5, 212, 0.6)),
     url(images/dream-code-create.jpg);
     background-size: cover;
     position: absolute;
-    top:60%;
-    left:50%;
+    top:75%;
+    left:45%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
-    cursor: pointer;
+    border-radius: 20px;   
+    opacity: 0;
+    visibility: hidden;
 }
 
 .x-btn {
@@ -167,6 +171,20 @@ position: relative;
     font-family: 'Bree+Serif', 'san-serif';
     font-size: 16px;
     text-transform: uppercase;
+    margin: 10px 0 50px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.form button:hover { 
+    transform: translate(-2);
+    box-shadow: 0 8px 25 rgba(0, 0, 0, .3);
+    transition: all 0.3;
+
+}
+
+.form button:active{
+    transform: translate(0); 
 }
 
 .footer {
