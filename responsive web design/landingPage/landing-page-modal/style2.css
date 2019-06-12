@@ -85,10 +85,10 @@
   transition: all 0.5s;
 }
 
-/* .disable {
+.disable {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 .modal {
   width: 400px;
