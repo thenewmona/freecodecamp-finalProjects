@@ -5,3 +5,4 @@ https://www.youtube.com/watch?v=azYEMOu4h4Y&list=PL5YiUfR9O92Nwp1YNGheNahwyoaVa-
 trying to figure out why my jgit looked empty, looks like I was working on and had nothing in the master 
 
 need to do a merge 
+everything is good on the vm 
