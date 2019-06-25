@@ -1,204 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
 }
 
 .container {
     width: 100%;
     height: 100vh;
-    top:-10px;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)),
-        url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)),
+    url(images/DGHeadshots-68-Edit.jpg)center no-repeat;
+    background-size:cover;
 }
-
-.header{
-    color: wheat;
-    font-family: "Courgette", sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-bottom: 30px; 
-   padding-top: 25px;
-   padding-bottom: 20px;
-    background-color: rgb(133, 26, 133);
-    text-align: center;
-}
-.banner-text {
+.banner-text{
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%)
 }
-
-.banner-text h1 {
-
-    color: wheat;
-    font-family: "Courgette", sans-serif;
+.banner-text h1{
+    
+    color:wheat;
+    font-family:"Courgette",sans-serif;
     font-size: 80px;
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
-
-.banner-text p {
-
-    color: rgb(160, 69, 148);
-    font-family: "Courgette", sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-align: right;
+.footer{
+width:100%;
+height:50vh;
+    background:url(images/calvincoolidge.jpg) center no-repeat;
 }
 
-.btns {
-    position: absolute;
-    top: 10px;
-    right: 0px;
-}
-
-.btn {
-    width: 170px;
-    padding: 10px 15px;
-    margin-right: 20px;
-    border-radius: 50px;
-    font-family: 'Bree+Serif', 'san-serif';
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    outline:none;
-    cursor: pointer;
-    color: wheat;
-    border:2px solid wheat;
-    transition: transform 0.5;
-
-}
-
-.login-btn{
-    background-color: transparent;
-
-}
-
-.signup-btn{
-    background-color: transparent;
-}
-
-.btn:hover{
-    transform: translateY(-2px);
-}
-
-.btn:active {
-    transform: translateY(0);  
-}
-
-.modal{
-    width:400px;
-    background: linear-gradient(rgba(243, 154, 236, 0.8), rgba(223, 5, 212, 0.6)),
-    url(images/dream-code-create.jpg);
-    background-size: cover;
-    position: absolute;
-    top:75%;
-    left:45%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;   
-    opacity: 0;
-    visibility: visible;
-}
-.display{
-    opacity: 1;
-    visibility: hidden;  
-}
-
-.x-btn {
-    position: absolute;
-    right: 20px;
-    font-size: 50px;
-    color: #222;
-}
-
-.form-header {
-    text-align: center;
-    margin: 80px 0 150px 0;
-    color: beige;
-
-}
-
-.form-header h1 {
-    font-family: 'Bree+Serif','san-serif';
-    font-size: 40px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-
-.form-header h3 {
-    font-family: 'Bree+Serif','san-serif';
-    font-size: 25px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px 15px 15px 60px;
-}
-.input-group {
-margin-bottom: 10px;
-position: relative;
-}
-
-.input-group input {
-    width: 250px;
-    padding: 15px 15px 15px 50px;
-    border: none; 
-    outline: none;
-    border-radius: 30px;
-    background: rgba(0,0,0,.6);
-    font-family: 'Bree+Serif', 'san-serif';
-    font-size: 20px;
-    color: rgb(232, 179, 245);
-}
-.input-group i {
-    position: absolute;
-    top: 13px;
-    left: 17px;
-    font-size: 18px;
-    color: #aaa;
-}
-.form button {
-    width: 250;
-    padding:15px;
-    border: none;
-    border-radius: 40px;
-    background-color:  rgba(1,0,0,.6);;
-    color: #aaa;
-    font-family: 'Bree+Serif', 'san-serif';
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 10px 0 50px 0;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
-    cursor: pointer;
-}
-
-.form button:hover { 
-    transform: translate(-2);
-    box-shadow: 0 8px 25 rgba(0, 0, 0, .3);
-    transition: all 0.3;
-
-}
-
-.form button:active{
-    transform: translate(0); 
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vh;
-    text-align: center;
-    font-family: 'Bree+Serif', 'san-serif';
-    font-size: 20px;
-    letter-spacing: 3px;
-    color: rgb(232, 179, 245);
-    /* background: url(images/calvincoolidge.jpg) center no-repeat; */
-}
